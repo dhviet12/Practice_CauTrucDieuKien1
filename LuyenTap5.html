@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let diemthi1=parseFloat(prompt('Nhập điểm bài kiểm tra'));
+    let diemthi2=parseFloat(prompt('Nhập điểm bài thi giữa kỳ'));
+    let diemthi3=parseFloat(prompt('Nhập điểm bài thi cuối kỳ'));
+    let tong= diemthi1 + diemthi2 + diemthi3;
+    if (tong >=28) {
+        alert('Kết quả xuất sắc');
+    } else if(tong >=22) {
+        alert('Kết quả tốt');
+    } else if(tong >=16) {
+        alert('Kết quả bình thường');
+    } else if (tong >=12) {
+        alert('Kết quả yếu');
+    } else { alert('Kết quả kém');
+    }
+
+</script>
+
+</body>
+</html>
